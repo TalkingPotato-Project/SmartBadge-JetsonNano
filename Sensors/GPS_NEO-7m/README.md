@@ -40,7 +40,7 @@ gpsmon
 
 ## Reference Website
 
-https://brisbaneroboticsclub.id.au/install-ublox-m8n-gps-on-raspberry-pi-nvidia-nano/
+https://brisbaneroboticsclub.id.au/install-ublox-m8n-gps-on-raspberry-pi-nvidia-nano/ <br>
 https://forums.developer.nvidia.com/t/jetson-nano-python3-gps-problem/144304
 
 **circuitpython - GPS** 
