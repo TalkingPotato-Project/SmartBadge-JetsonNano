@@ -1,5 +1,11 @@
 # My GPS Control
 
+## Serial port
+Jetson Nano +3.3V pin to the Vin pin on the GPS <br>
+Jetson Nano Ground pin to the GPS Ground pin <br>
+Jetson Nano UART TX (#8) to the GPS RX pin <br>
+Jetson Nano UART RX (#10) to the GPS TX pin <br>
+
 
 ## Install gpsd and Init settings
 
