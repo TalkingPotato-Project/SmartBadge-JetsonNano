@@ -2,15 +2,16 @@
 ### ※ upper case is shift + ( letter )
 ```
 hjkl # 화살표 이동
-w # 단어 단위로 넘김
-W # 제일 마지막
+i # Insert 모드
+w # 단어 단위로 이동
+W # 제일 마지막 단어로 이동
 shitf $ # End Key
 shift ^ # Home Key
-ctrl+f #: page down
+ctrl+f # page down
 ctrl+u / b # page up
 cw # 한단어 수정
 dw # 한단어 삭제
-v # 블록
+v # 블록 선택
 y # 복사
 yy # 한라인 복사
 p # 붙혀넣기
