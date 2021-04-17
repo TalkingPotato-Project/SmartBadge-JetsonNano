@@ -9,8 +9,9 @@ shitf $ # End Key
 shift ^ # Home Key
 ctrl+f # page down
 ctrl+u / b # page up
-cw # 한단어 수정
+cw # 한단어 수정 후 입력
 dw # 한단어 삭제
+r # 한글자 삭제
 v # 블록 선택
 y # 복사
 yy # 한라인 복사
