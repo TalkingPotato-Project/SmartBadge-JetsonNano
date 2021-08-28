@@ -1,4 +1,11 @@
-## SmartBadge <br> 영상 및 위치정보에 기반한 어린이 사고 예방 시스템 
+# SmartBadge <br> 
+**영상 및 위치정보에 기반한 어린이 사고 예방 시스템**
+
+> 🏆 제 9회 대한전기학회 산업전기위원회 대학생 작품경진대회 **대상** 수상 🏆
+
+
+<br> 
+
 ### 요구사항
 * [NVIDIA Jetson Nano Development Kit-B01](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
 
@@ -21,16 +28,34 @@
 <br>
 
 ## 1. 소개
-(프로젝트 내용 소개)<br>
-Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구현한다. 꾸준히 발생하고 있는 실종 아동 문제와 어린이 교통사고 문제는 어린이들의 안전을 위협하고 있으며, 아이가 있는 보호자들의 불안감을 야기한다. 이러한 문제를 해결하기 위해 제안된 어린이 스마트 배지의 시스템은 어린이용 배지, 서버, 보호자용 App으로 구성되어 있으며 두 가지 주요 기술을 사용한다. Semantic Segmentation 기술을 사용한 상황별 알림 기능을 통해 어린이들의 교통안전 의식을 향상시키고 무단횡단을 예방한다. 또한, GPS를 이용하여 보호자 App에서 안전 구역 설정 및 아이의 실시간 위치를 파악하고 안전 구역 이탈 시 알림을 받을 수 있어 범죄를 예방하거나 문제 발생 시 빠른 대처가 가능하다.
+
+Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구현한다. 
+
+꾸준히 발생하고 있는 실종 아동 문제와 어린이 교통사고 문제는 어린이들의 안전을 위협하고 있으며, 아이가 있는 보호자들의 불안감을 야기한다. 
+
+이러한 문제를 해결하기 위해 제안된 어린이 스마트 배지의 시스템은 세 가지로 구성되어 있다.
+
+- 어린이용 배지
+- Server
+- 보호자용 App
+
+<h4>주요 기술 및 기능</h4>
+
+
+- Semantic Segmentation 기술을 사용한 상황별 알림 기능을 통해 어린이들의 교통안전 의식을 향상시키고 무단횡단을 예방한다. 
+- GPS를 이용하여 보호자 App에서 안전 구역 설정 및 아이의 실시간 위치를 파악하고 안전 구역 이탈 시 알림을 받을 수 있어 범죄를 예방하거나 문제 발생 시 빠른 대처가 가능하다.
+
 <br>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/50138845/131224422-3c02967e-114d-4ed5-b622-8628487b54a6.gif"></p>
 
 
+<br>
+
+
 ## 2. 개발 환경
 
-![image](https://user-images.githubusercontent.com/46085058/131226185-d0ff5001-6574-49ce-b798-756dc0982f58.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131224518-ddb7671a-731f-4965-9f5d-7ece7107c7bb.png"></p>
 
 | **Category**  | <center>**Tools**</center>  | **Version**  |
 | :------------: | ------------| :------------: |
@@ -52,9 +77,6 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 ## 3. 기능
 
 ### 데이터셋 구축 - Lableme
-
-![image](https://user-images.githubusercontent.com/46085058/131225972-01ad42b1-3b99-48ff-8c92-be0b2f9d6917.png)
-![image](https://user-images.githubusercontent.com/46085058/131225993-f332b9b3-caaa-41f8-96ee-80cb4d5ff06e.png)
 
 <br>
 
@@ -91,25 +113,24 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 #### 사용자 인터페이스(User Interface)
 
 ##### 보호자용 App 메인화면과 안심 구역 관리
-![image](https://user-images.githubusercontent.com/46085058/131225741-fecc12e2-7cff-46a6-9718-7012015e5c7c.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131225741-fecc12e2-7cff-46a6-9718-7012015e5c7c.png"></p>
 
 보호자용 App의 메인화면(좌)과 아이가 이동한 영역에 대해 안심 구역을 설정한 화면(우)이다. 메인화면의 가장 왼쪽에 있는 안심 구역 관리 버튼을 클릭하면 아이의 안심 구역을 추가, 삭제가 가능하고, 아이의 무단횡단 기록을 열람할 수 있다.
 
 
 ##### 안심 구역 이탈 및 추가
-![image](https://user-images.githubusercontent.com/46085058/131225770-df8e1c97-4ad3-4098-860c-cbc2b68c7179.png)
-![image](https://user-images.githubusercontent.com/46085058/131226023-ad2896a7-e5d1-4256-b6e6-6508357f65d1.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131225770-df8e1c97-4ad3-4098-860c-cbc2b68c7179.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131226023-ad2896a7-e5d1-4256-b6e6-6508357f65d1.png"></p>
 
 아이가 안심 구역을 이탈했을 경우 안심 구역을 추가, 삭제할 수 있는 화면이다. 아이가 안심 구역을 이탈하면 보호자용 App을 통하여 보호자에게 알림이 가고, 이탈한 경로가 빨간색 선으로 표시가 된다. 이 경로를 안심 구역으로 추가를 하거나 삭제할 수 있다.
 
 ##### 무단횡단 기록 열람 & 상황별 보호자 음성 알림 녹음
-![image](https://user-images.githubusercontent.com/46085058/131225885-7660cf8f-354d-4f4a-a4d0-f2faf28f41da.png)
-![image](https://user-images.githubusercontent.com/46085058/131225876-b817298a-d067-49bf-9a2b-0e4d37932860.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131225885-7660cf8f-354d-4f4a-a4d0-f2faf28f41da.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131225876-b817298a-d067-49bf-9a2b-0e4d37932860.png"></p>
 
 아이의 무단횡단 기록을 열람할 수 있는 화면이다. 아이가 무단횡단을 할 시, 그 위치 정보가 서버에 저장되고 보호자용 App에서 보호자가 무단횡단 위치와 당시 시간대를 알 수 있다.
 
 어린이 스마트 배지에서 울리게 될 알림을 녹음하는 화면이다. 차도일 때, 횡단보도일 때, 무단횡단할 때로 세 가지의 경우로 나누어져 있다. 보호자용 App에서 알림을 녹음하면 서버에 녹음 파일이 저장되고 어린이 스마트 배지에서 보호자 음성 알림을 재생할 수 있다.
 
 
-
-
+<p align="center"><img src="https://user-images.githubusercontent.com/50138845/131226399-d204a2b7-89fe-48af-8231-feb58aafabe1.png" width = 300px></p>
