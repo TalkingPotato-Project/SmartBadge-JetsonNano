@@ -31,7 +31,7 @@
 
 <br>
 
-## 1. 소개
+## 1. 소개 - [YouTube 소개 영상](https://www.youtube.com/watch?v=Ps39QcEkKhw)
 
 Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구현한다. 
 
