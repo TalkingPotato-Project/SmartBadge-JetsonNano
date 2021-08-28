@@ -53,6 +53,9 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 ### 데이터셋 구축 - Lableme
 
+![image](https://user-images.githubusercontent.com/46085058/131225972-01ad42b1-3b99-48ff-8c92-be0b2f9d6917.png)
+![image](https://user-images.githubusercontent.com/46085058/131225993-f332b9b3-caaa-41f8-96ee-80cb4d5ff06e.png)
+
 <br>
 
 ### 도로 구분 - Semantic Segmentation
@@ -95,16 +98,18 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 
 ##### 안심 구역 이탈 및 추가
 ![image](https://user-images.githubusercontent.com/46085058/131225770-df8e1c97-4ad3-4098-860c-cbc2b68c7179.png)
+![image](https://user-images.githubusercontent.com/46085058/131226023-ad2896a7-e5d1-4256-b6e6-6508357f65d1.png)
 
 아이가 안심 구역을 이탈했을 경우 안심 구역을 추가, 삭제할 수 있는 화면이다. 아이가 안심 구역을 이탈하면 보호자용 App을 통하여 보호자에게 알림이 가고, 이탈한 경로가 빨간색 선으로 표시가 된다. 이 경로를 안심 구역으로 추가를 하거나 삭제할 수 있다.
 
-##### 무단횡단 기록 열람
+##### 무단횡단 기록 열람 & 상황별 보호자 음성 알림 녹음
 ![image](https://user-images.githubusercontent.com/46085058/131225885-7660cf8f-354d-4f4a-a4d0-f2faf28f41da.png)
+![image](https://user-images.githubusercontent.com/46085058/131225876-b817298a-d067-49bf-9a2b-0e4d37932860.png)
 
 아이의 무단횡단 기록을 열람할 수 있는 화면이다. 아이가 무단횡단을 할 시, 그 위치 정보가 서버에 저장되고 보호자용 App에서 보호자가 무단횡단 위치와 당시 시간대를 알 수 있다.
 
-##### 상황별 보호자 음성 알림 녹음
-
-![image](https://user-images.githubusercontent.com/46085058/131225876-b817298a-d067-49bf-9a2b-0e4d37932860.png)
-
 어린이 스마트 배지에서 울리게 될 알림을 녹음하는 화면이다. 차도일 때, 횡단보도일 때, 무단횡단할 때로 세 가지의 경우로 나누어져 있다. 보호자용 App에서 알림을 녹음하면 서버에 녹음 파일이 저장되고 어린이 스마트 배지에서 보호자 음성 알림을 재생할 수 있다.
+
+
+
+
