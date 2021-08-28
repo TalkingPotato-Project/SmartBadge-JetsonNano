@@ -28,8 +28,8 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 <p align="center"><img src="https://user-images.githubusercontent.com/50138845/131224422-3c02967e-114d-4ed5-b622-8628487b54a6.gif"></p>
 
 
-<br>
 ## 2. 개발 환경
+
 ![image](https://user-images.githubusercontent.com/46085058/131224518-ddb7671a-731f-4965-9f5d-7ece7107c7bb.png)
 
 | **Category**  | <center>**Tools**</center>  | **Version**  |
@@ -50,9 +50,11 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 
 ## 3. 기능
+
 ### Lableme 학습 - 데이터셋 구축
 
 <br>
+
 ### Segmentation - 도로 구분
 
 어린이의 교통안전의식 향상과 무단횡단을 방지 기능을 구현하기 위해 Semantic Segmentation 기술을 사용하였으며 FCN(Fully Convolutional Networks) 모델을 사용하였다.
