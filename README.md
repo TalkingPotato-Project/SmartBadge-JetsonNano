@@ -23,13 +23,13 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 ## 3. 기능
 ### Lableme 학습 - 데이터셋 구축
----
+
 
 ### Segmentation - 도로 구분
----
+
 
 ### App & Server
----
+
 
 ### Sensors
 [Accelerometer_ADXL345](https://github.com/JJinTae/SmartBadge-JetsonNano/tree/main/Sensors/Accelerometer_ADXL345 "Accelerometer_ADXL345") <br>
