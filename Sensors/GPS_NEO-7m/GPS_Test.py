@@ -7,8 +7,8 @@ import requests
 import json
 
 uart = serial.Serial("/dev/ttyTHS1", baudrate=9600, timeout=30)
-smartBadgeID = 131313
-URL = 'http://112.158.50.42:9080/location/'+str(smartBadgeID)+'/'
+smartBadgeID = 00000
+URL = 'http://127.0.0.1:9080/location/'+str(smartBadgeID)+'/' # Your Server IP:Port
 headers = {'Content-Type': 'application/json', 'user-agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'}
 
 gps = adafruit_gps.GPS(uart)
