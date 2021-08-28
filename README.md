@@ -19,9 +19,9 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 ## 2. 개발 환경
 ![image](https://user-images.githubusercontent.com/46085058/131224518-ddb7671a-731f-4965-9f5d-7ece7107c7bb.png)
 
-| Category  | <center>Tools</center>  | Version  |
+| **Category**  | <center>**Tools**</center>  | **Version**  |
 | :------------: | ------------| :------------: |
-| **Jetson - nano ** | Image  |  jetson-nano-jp451  |
+| **Jetson-nano** | Image  |  jetson-nano-jp451  |
 |   | python  | 3.6.9  |
 | **Application** | AndroidStudio  |  4.1.0 |
 |   | compileSdkVersion  | 30  |
@@ -62,7 +62,9 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 | 도로  | ![image](https://user-images.githubusercontent.com/50138845/131224649-bd309439-b6bf-402c-8710-baf924f22166.png)|  판단 영역이 차도로 판단될 경우 어린이가 차도를 향해서 보행하고 있어 위험하다고 판단하며 보호자의 음성 알림(예시: “00아 도로에서 뛰면 위험해 횡단보도로 건너”)이 울린다. |
 | 도로  | <center>무단횡단의 경우</center>|  판단 영역이 차도로 판단된 후 가속도 센서의 변화가 일정량 감지되면 어린이가 차도 방향으로 무단횡단을 시도하는 것으로 판단되어 보호자의 음성 알림(예시: “00아 무단횡단은 안돼! 횡단보도로 건너”)이 울린다. |
 <br>
-##### Sensors
+
+### Sensors
+
 [Accelerometer_ADXL345](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/Accelerometer_ADXL345 "Accelerometer_ADXL345") <br>
 [GPS_NEO-7m](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/GPS_NEO-7m "GPS_NEO-7m")
 
