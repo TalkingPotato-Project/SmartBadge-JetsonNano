@@ -51,11 +51,11 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 ## 3. 기능
 
-### Lableme 학습 - 데이터셋 구축
+### 데이터셋 구축 - Lableme
 
 <br>
 
-### Segmentation - 도로 구분
+### 도로 구분 - Semantic Segmentation
 
 어린이의 교통안전의식 향상과 무단횡단을 방지 기능을 구현하기 위해 Semantic Segmentation 기술을 사용하였으며 FCN(Fully Convolutional Networks) 모델을 사용하였다.
     
