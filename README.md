@@ -114,15 +114,15 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 
 <br><br><br>
 
-### Sensors
 
-[Accelerometer_ADXL345](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/Accelerometer_ADXL345 "Accelerometer_ADXL345") <br>
-[GPS_NEO-7m](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/GPS_NEO-7m "GPS_NEO-7m")
 
 <br>
 
 
 ### Application & Server
+
+[Application Repository](https://github.com/TalkingPotato-Project/SmartBadge-App) <br>
+[Server Repository](https://github.com/TalkingPotato-Project/SmartBadge-Server)
 
 ### Application
 
@@ -192,6 +192,11 @@ Ray Casting 알고리즘
 안심 구역을 이탈하였을 경우 이탈하는 지점부터  GPS 정보를 DB에 저장한다. 이후 이탈한 GPS 정보에 대해서 기존 안심 구역에 추가 또는 삭제를 할 수 있으며, 추가의 경우 기존 안심 구역의 PolyLine객체에 가장 근접한 지점을 찾은 후 안심 구역 생성과 동일한 알고리즘을 수행하여 안심 구역을 갱신한다.
 <br><br><br>
 
+
+### Sensors
+
+[Accelerometer_ADXL345](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/Accelerometer_ADXL345 "Accelerometer_ADXL345") <br>
+[GPS_NEO-7m](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/GPS_NEO-7m "GPS_NEO-7m")
 
 
 <br> 
