@@ -54,9 +54,18 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 <p align="center"><img src="https://user-images.githubusercontent.com/50138845/131224422-3c02967e-114d-4ed5-b622-8628487b54a6.gif"></p>
 
-
 <br>
 
+<h4>하드웨어 구성</h4>
+
+![hardware](https://user-images.githubusercontent.com/46085058/131228189-b2cbab14-fbdb-4776-8cb0-7cae427686e3.png)
+
+<br>
+<h4>예시</h4>
+
+![image](https://user-images.githubusercontent.com/46085058/131228361-7a1b7f6a-668e-44c4-8859-dfd7f92bed66.png)
+
+<br>
 
 ## 2. 개발 환경
 
