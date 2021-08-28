@@ -84,3 +84,27 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 [GPS_NEO-7m](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/GPS_NEO-7m "GPS_NEO-7m")
 <br>
 ### App & Server
+
+#### 사용자 인터페이스(User Interface)
+
+##### 보호자용 App 메인화면과 안심 구역 관리
+![image](https://user-images.githubusercontent.com/46085058/131225741-fecc12e2-7cff-46a6-9718-7012015e5c7c.png)
+
+보호자용 App의 메인화면(좌)과 아이가 이동한 영역에 대해 안심 구역을 설정한 화면(우)이다. 메인화면의 가장 왼쪽에 있는 안심 구역 관리 버튼을 클릭하면 아이의 안심 구역을 추가, 삭제가 가능하고, 아이의 무단횡단 기록을 열람할 수 있다.
+
+
+##### 안심 구역 이탈 및 추가
+![image](https://user-images.githubusercontent.com/46085058/131225770-df8e1c97-4ad3-4098-860c-cbc2b68c7179.png)
+
+아이가 안심 구역을 이탈했을 경우 안심 구역을 추가, 삭제할 수 있는 화면이다. 아이가 안심 구역을 이탈하면 보호자용 App을 통하여 보호자에게 알림이 가고, 이탈한 경로가 빨간색 선으로 표시가 된다. 이 경로를 안심 구역으로 추가를 하거나 삭제할 수 있다.
+
+##### 무단횡단 기록 열람
+![image](https://user-images.githubusercontent.com/46085058/131225885-7660cf8f-354d-4f4a-a4d0-f2faf28f41da.png)
+
+아이의 무단횡단 기록을 열람할 수 있는 화면이다. 아이가 무단횡단을 할 시, 그 위치 정보가 서버에 저장되고 보호자용 App에서 보호자가 무단횡단 위치와 당시 시간대를 알 수 있다.
+
+##### 상황별 보호자 음성 알림 녹음
+
+![image](https://user-images.githubusercontent.com/46085058/131225876-b817298a-d067-49bf-9a2b-0e4d37932860.png)
+
+어린이 스마트 배지에서 울리게 될 알림을 녹음하는 화면이다. 차도일 때, 횡단보도일 때, 무단횡단할 때로 세 가지의 경우로 나누어져 있다. 보호자용 App에서 알림을 녹음하면 서버에 녹음 파일이 저장되고 어린이 스마트 배지에서 보호자 음성 알림을 재생할 수 있다.
