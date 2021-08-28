@@ -55,7 +55,13 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 ## 2. 개발 환경
 
+**시스템 구성도**
+
 <p align="center"><img src="https://user-images.githubusercontent.com/46085058/131226185-d0ff5001-6574-49ce-b798-756dc0982f58.png"></p>
+
+
+<br>
+
 
 | **Category**  | <center>**Tools**</center>  | **Version**  |
 | :------------: | ------------| :------------: |
@@ -107,7 +113,10 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 
 [Accelerometer_ADXL345](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/Accelerometer_ADXL345 "Accelerometer_ADXL345") <br>
 [GPS_NEO-7m](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/GPS_NEO-7m "GPS_NEO-7m")
+
 <br>
+
+
 ### App & Server
 
 #### 사용자 인터페이스(User Interface)
@@ -131,6 +140,19 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 아이의 무단횡단 기록을 열람할 수 있는 화면이다. 아이가 무단횡단을 할 시, 그 위치 정보가 서버에 저장되고 보호자용 App에서 보호자가 무단횡단 위치와 당시 시간대를 알 수 있다.
 
 어린이 스마트 배지에서 울리게 될 알림을 녹음하는 화면이다. 차도일 때, 횡단보도일 때, 무단횡단할 때로 세 가지의 경우로 나누어져 있다. 보호자용 App에서 알림을 녹음하면 서버에 녹음 파일이 저장되고 어린이 스마트 배지에서 보호자 음성 알림을 재생할 수 있다.
+
+<br>
+
+## 4. 결론
+
+
+SmartBadge는 Jetson nano에 카메라와 GPS 모듈을 사용하여 어린이의 시야에서 도로 유형 판별에 따른 알림 및 안심 구역 생성과 이탈을 감지하기 위한 기능을 구현하였다. 
+
+Semantic Segmentation을 통해 도로의 유형을 구분하고 어린이에게 도로의 위험성을 사전에 인지할 수 있도록 하였으며, 어린이의 이동 경로를 기반으로 하는 GPS 정보를 분석하여 안심 구역을 스스로 생성하고 이탈을 감지하도록 하였다. 보호자용 App과 서버를 통해 어린이 스마트 배지와 통신하며 각종 알림에 대한 보호자의 목소리 녹음과 이탈 시 알림을 받을 수 있도록 하였다.
+
+실험을 통해 제안 시스템의 안정성과 정확성을 확인하였고 어린이 보행 안전 및 안심 구역 이탈 감지를 실시간으로 할 수 있음을 보였다. 이를 통해 어린이 사고 예방을 위한 시스템으로 활용 가능할 것이다.
+
+더 많은 영상 데이터 셋을 구축하여 Semantic Segmentation 정확도를 향상시키고, 직접적으로 무단횡단을 방지할 수 있는 방법과 어린이의 이동 경로를 실시간으로 추정하여 이상 경로에 대한 위험성을 사전에 분석하는 방법 연구를 지속적으로 수행할 예정이다.
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/50138845/131226399-d204a2b7-89fe-48af-8231-feb58aafabe1.png" width = 300px></p>
