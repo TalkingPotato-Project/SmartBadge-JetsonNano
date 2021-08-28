@@ -17,10 +17,23 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 
 ## 2. 개발 환경
-| Tools| Version |
-| ------------ | ------------ |
-|   |   |
-|   |   |
+![image](https://user-images.githubusercontent.com/46085058/131224518-ddb7671a-731f-4965-9f5d-7ece7107c7bb.png)
+
+| Category  | <center>Tools</center>  | Version  |
+| :------------: | ------------| :------------: |
+| **Jetson - nano ** | Image  |  jetson-nano-jp451  |
+|   | python  | 3.6.9  |
+| **Application** | AndroidStudio  |  4.1.0 |
+|   | compileSdkVersion  | 30  |
+|   | buildToolsVersion  | 30.0.2  |
+| **Server**  | OS  | CentOS 7.9 2009  |
+|   | Django | 3.2.2  |
+|   | DjangoRestframework  |  3.12.4 |
+|   | Gunicorm  | 20.1.0  |
+|   | MySql-Client  |  2.0.3 |
+| **DataBase**  | MySql  | 8.0.25  |
+
+<br>
 
 
 ## 3. 기능
@@ -48,14 +61,12 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 | 횡단보도  | ![image](https://user-images.githubusercontent.com/50138845/131224619-3b1dfb01-04a9-4a6c-a022-f6c228a01a1d.png)  | 판단 영역이 횡단보도로 판단될 경우 어린이가 횡단보도 앞에 있다고 판단하며 보호자의 음성 알림( 예시: “00아 초록불 일 땐 양옆을 살피고 빨간불에는 멈춰!” )이 울린다.  |
 | 도로  | ![image](https://user-images.githubusercontent.com/50138845/131224649-bd309439-b6bf-402c-8710-baf924f22166.png)|  판단 영역이 차도로 판단될 경우 어린이가 차도를 향해서 보행하고 있어 위험하다고 판단하며 보호자의 음성 알림(예시: “00아 도로에서 뛰면 위험해 횡단보도로 건너”)이 울린다. |
 | 도로  | <center>무단횡단의 경우</center>|  판단 영역이 차도로 판단된 후 가속도 센서의 변화가 일정량 감지되면 어린이가 차도 방향으로 무단횡단을 시도하는 것으로 판단되어 보호자의 음성 알림(예시: “00아 무단횡단은 안돼! 횡단보도로 건너”)이 울린다. |
-
+<br>
+##### Sensors
+[Accelerometer_ADXL345](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/Accelerometer_ADXL345 "Accelerometer_ADXL345") <br>
+[GPS_NEO-7m](https://github.com/TalkingPotato-Project/SmartBadge-JetsonNano/tree/main/Sensors/GPS_NEO-7m "GPS_NEO-7m")
 
 ### App & Server
-
-
-### Sensors
-[Accelerometer_ADXL345](https://github.com/JJinTae/SmartBadge-JetsonNano/tree/main/Sensors/Accelerometer_ADXL345 "Accelerometer_ADXL345") <br>
-[GPS_NEO-7m](https://github.com/JJinTae/SmartBadge-JetsonNano/tree/main/Sensors/GPS_NEO-7m "GPS_NEO-7m")
 
 
 
