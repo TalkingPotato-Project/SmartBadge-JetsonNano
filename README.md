@@ -100,7 +100,7 @@ Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구�
 
 ![image](https://user-images.githubusercontent.com/50138845/139537458-52f63993-b52c-4d77-a196-f248c197574a.png)
 
-학습 데이터로 사용할 이미지를 Labelme에서 Class마다 영역을 나누어 Label을 지정해준다.
+학습 데이터로 사용할 이미지를 Labelme에서 Class마다 영역을 나누어 Label을 지정해준다.<
 Class는 Background, Roadway, Sidewalk, Crosswalk로 총 4개로 구성된다.
 
 <br><br><br>
